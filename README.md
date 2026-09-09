@@ -16,7 +16,7 @@ In Codex, ask the skill installer:
 $skill-installer install the skill at https://github.com/derekurban/skills/tree/main/skills/wayfind
 ```
 
-The skill folder contains portable `SKILL.md` instructions, an optional reference, and Codex metadata in `agents/openai.yaml`.
+The skill folder contains a compact `SKILL.md`, optional references for a [worked example](skills/wayfind/references/worked-example.md) and [Designing Trials](skills/wayfind/references/designing-trials.md), and Codex metadata in `agents/openai.yaml`.
 
 ### Use
 
@@ -28,4 +28,4 @@ Wayfind supports automatic selection in Codex when the task matches its descript
 
 ### Status
 
-Version **0.3.1**. Package structure and metadata have been checked. Earlier drafts underwent limited agent smoke tests; the current simplified wording has not yet been behaviorally retested. Feedback from real use will guide further revisions.
+Version **0.3.2**. Package structure, metadata, and document links have been checked. Earlier drafts underwent limited agent smoke tests; the current simplified wording has not yet been behaviorally retested. Feedback from real use will guide further revisions.

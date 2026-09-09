@@ -1,4 +1,4 @@
-# Designing useful trials
+# Designing Trials
 
 A trial is a bounded attempt to learn through doing. Use this guidance when the setup could produce a misleading conclusion or the next commitment is consequential.
 

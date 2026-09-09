@@ -3,11 +3,11 @@ name: wayfind
 description: >-
   Turn an unclear idea into a grounded direction and a useful next step.
   Use when goals, preferences, or the route forward are still forming and
-  investigation, examples, or experience would help clarify them. Learn from
-  what happens and move into action. Skip routine questions, settled
+  investigation, examples, or experience would help clarify them, especially
+  when the user cannot yet describe a good outcome. Skip routine questions, settled
   implementation, and urgent incidents with an established response.
 metadata:
-  version: "0.3.1"
+  version: "0.3.2"
 ---
 
 # Wayfind
@@ -44,16 +44,14 @@ Match the next step to what is missing:
 | Evidence that an approach works | Run a focused test. |
 | A sense of what feels useful | Show contrasting options or arrange a realistic trial. |
 | Enough understanding to judge | Explain, demonstrate, or practice with feedback. |
-| Better questions or possibilities | Explore a few meaningfully different examples. |
+| Better questions or possibilities | Explore a bounded set of contrasting examples to discover useful questions. |
 | A choice between competing values | Clarify the tradeoff and what the user will accept. |
 
-When the questions are still forming, exploration can produce a better question rather than test a prediction. Give it a scope and a stopping point.
+Choose the least costly step that can provide enough evidence for the next decision or enable later learning. Compare meaningful alternatives, including keeping things as they are. Prioritize an important assumption if being wrong would make later work wasteful.
 
-Choose the least costly step that can teach us enough to affect a decision or enable later learning. Consider alternatives, including keeping things as they are. Check important assumptions before expensive commitments. Sometimes learning one thing makes the next question answerable.
+Plan one concrete action with an effort limit. Make later steps conditional on its result; sometimes the first step makes a later question answerable. For unfamiliar territory, aim to discover better questions rather than demand a prediction to test.
 
-Make the immediate action concrete, the next steps conditional on its result, and the distant plan provisional. For a substantial trial, state what it should teach us, its effort limit, and what it cannot establish.
-
-Do the work you can perform within the user's authorization. When it requires their experience, prepare something usable and wait for their reaction. If access is missing, say what remains undone.
+Do the authorized work. Prefer showing or doing when it would clarify more than another question. When learning requires the user's experience, prepare something usable and wait for their reaction. If access is missing, say what remains undone.
 
 ### 3. Learn from what happened
 
@@ -73,12 +71,9 @@ Some experiences need sustained participation. Choose a fair review point rather
 
 If work spans sessions, save a short task note: current direction, user-stated boundaries, evidence and its limits, open questions, and next action. Preserve the difference between what the user said and what you inferred.
 
-## A simple example
-
-“I want an AI coding partner, but I don't know how involved I want to be.”
-
-Create two short examples of the same task: one with checkpoints and one with delegated decisions. The user reacts to where they want control or explanation. Use that reaction to select a real trial. The examples help reveal a useful distinction; they do not establish how a working system will feel or perform.
-
 ## Keep it useful
 
-Lead with the result or next action and a brief reason. Use only as much process as the task needs. For comparisons, misleading results, or consequential trials, read [designing useful trials](references/probe-judgment.md).
+Lead with the result or next action and a brief reason. Use only as much process as the task needs. Read supporting documents only when relevant:
+
+- [Worked example](references/worked-example.md): when you need to see the complete loop in practice.
+- [Designing Trials](references/designing-trials.md): before designing comparisons or substantial trials, or interpreting results the setup may have distorted.
