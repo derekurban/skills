@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wayfind"
+  short_description: "Turn unclear ideas into useful next steps"
+  default_prompt: "Use $wayfind to help me clarify what I want and take the next useful step."
+
+policy:
+  allow_implicit_invocation: true
