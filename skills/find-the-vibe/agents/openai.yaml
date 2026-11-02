@@ -1,0 +1,7 @@
+interface:
+  display_name: "Find the vibe"
+  short_description: "Discover how a product should feel, together"
+  default_prompt: "Let's find the vibe on this screen."
+
+policy:
+  allow_implicit_invocation: true
