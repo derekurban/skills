@@ -4,4 +4,4 @@ interface:
   default_prompt: "Let's find the vibe on this screen."
 
 policy:
-  allow_implicit_invocation: false
+  allow_implicit_invocation: true
